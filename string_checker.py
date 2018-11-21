@@ -8,7 +8,7 @@ def main():
 	print("Enter the string to compare")
 	string2=input()	
 
-	if string1.lower()==string2.lower():
+	if string1==string2:
 		print("---------------------")
 		print("Strings are the same")
 		print("---------------------")
